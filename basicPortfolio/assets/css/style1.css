@@ -13,6 +13,19 @@ header {
 
 }
 
+/*h1 {
+			font-family: arial;
+			background-color: green;
+			text-align: center;
+			padding:20px;
+			max-width: 250px;
+			min-height: 30px;
+			color: white;
+			margin:20px;
+			font-size: 23px;
+			float: left;
+		}*/
+
 body {
 	background-color: #eee;
 }
@@ -50,13 +63,20 @@ section {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
     overflow: hidden;
     /*background-color: #333;*/
 
     /*position: fixed;
     top: 0;
     width: 100%;*/
+
+	/*Revise this. I want this list to be
+	in the center of the nav bar*/
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin: 25px;
 	
 
     border: 1px solid #e7e7e7;
