@@ -17,7 +17,7 @@ header {
 	background-color: #E5BD47;
 }
 
-main{
+main {
 	padding: 60px 0;
 	background-color: #CFDEE7;
 }
@@ -66,9 +66,13 @@ nav ul li a:hover{
 	border-bottom: 3px solid #C12127;
 }
 
-nav ul li a:active{
+nav ul li a.active{
 	border-bottom: 3px solid #FF652D;
 }
+
+/*nav ul li a.active:hover{
+	border-bottom: 3px solid #63B931;
+}*/
 
 
 .brand {
