@@ -70,9 +70,9 @@ nav ul li a.active{
 	border-bottom: 3px solid #FF652D;
 }
 
-/*nav ul li a.active:hover{
-	border-bottom: 3px solid #63B931;
-}*/
+nav ul li a.active:hover{
+	border-bottom: 3px solid #C12127;
+}
 
 
 .brand {
